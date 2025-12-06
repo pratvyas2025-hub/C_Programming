@@ -11,4 +11,6 @@ int main()
   printf("Memory not allocated");
   else
   printf("Memory allocated");
+
+  free(p);
 }
